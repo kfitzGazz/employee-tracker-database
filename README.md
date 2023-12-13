@@ -10,7 +10,7 @@ Grab this code, load it into VScode, open integrated terminal on index.js file, 
 
 ## Usage
 
-Here's a video recording: 
+Here's a video recording: https://drive.google.com/file/d/1JkK_B5XEibhdvX_y-RPspN9Tqsscv8XY/view -- (needs some finessing :)
 
 ## Credits
 
