@@ -14,15 +14,15 @@ VALUES ("sales lead", 100000, 1),
 ("Legal Team Lead",250000,4),
 ("Lawyer",190000,4);
 
-INSERT INTO employee (first_name,last_name,role_id)
-VALUES ("Kyleigh","Fitz",1),
-       ("Phil","Loy",2),
-       ("Danny","Wilks",3),
-       ("Quentin","J",4),
-       ("Michael","Jordan",5),
-       ("Steve","Jobs",6),
-       ("Lindsay","Grabuh",7),
-       ("Amy","Poehler",8);
+INSERT INTO employee (first_name,last_name,role_id, manager_id)
+VALUES ("Kyleigh","Fitz",1, NULL),
+       ("Phil","Loy",2, 1),
+       ("Danny","Wilks",3, 1),
+       ("Quentin","J",4, 1),
+       ("Michael","Jordan",5, 4),
+       ("Steve","Jobs",6, 5),
+       ("Lindsay","Grabuh",7, 6),
+       ("Amy","Poehler",8, 5);
 
 UPDATE employee SET manager_id = 1 WHERE id=2;
 
