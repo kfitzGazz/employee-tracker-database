@@ -22,7 +22,7 @@ VALUES ("Kyleigh","Fitz",1, NULL),
        ("Michael","Jordan",5, 4),
        ("Steve","Jobs",6, 5),
        ("Lindsay","Grabuh",7, 6),
-       ("Amy","Poehler",8, 5);
+       ("Amy","Poehler",8,);
 
 UPDATE employee SET manager_id = 1 WHERE id=2;
 
